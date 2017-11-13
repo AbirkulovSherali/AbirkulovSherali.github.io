@@ -1,0 +1,368 @@
+@import "fonts.scss";
+
+
+body {
+    font-size: 14px;
+    font-family: "Helvetica Neue Regular";
+    color: #000;
+}
+
+.main-menu .container {
+    padding: 0;
+}
+
+.main-menu .navbar {
+    padding: 26px 0;
+}
+
+.main-menu .navbar .navbar-nav {
+    margin-right: 22px;
+}
+
+.main-menu .navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu .navbar-brand h1 {
+    margin: 0
+}
+
+.main-menu .navbar .log-day {
+    font-family: "Helvetica Neue Bold";
+    color: #d0cccc;
+}
+
+.main-menu .navbar .log-lite {
+    font-family: "Helvetica Neue Light";
+    color: #cfba93;
+}
+
+.main-menu .navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #959191;
+    transition: all .3s;
+}
+
+.main-menu .navbar-nav .nav-item {
+    margin-right: 40px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.main-menu .navbar-nav .nav-item .nav-link:hover {
+    color: #716246;
+}
+
+.main-menu .social-icons ul {
+    list-style: none;
+    margin: 0;
+    padding: 4px 0 4px 30px;
+    border-left: 1px solid #ccc;
+}
+
+.main-menu .social-icons ul li {
+    margin-right: 5px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.navbar .follow {
+    margin: 5px 0 8px 0;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #959191;
+}
+
+.purchase-content {
+    background: #2a2a2a;
+
+    .desc, .i-pad {
+        padding: 0;
+    }
+
+    h1 {
+        color: #a59477;
+        font-family: "Helvetica Neue Bold";
+        font-size: 55px;
+        margin-top: 55px;
+        margin-bottom: 0;
+    }
+
+    p {
+        color: #afa5a5;
+        font-size: 25px;
+        font-family: "Helvetica Neue Light";
+        margin: 30px 0;
+    }
+
+    .btn {
+        font-size: 14px;
+        font-family: "Helvetica Neue Bold";
+        background: transparent;
+        color: #a59477;
+        border: 2px solid #a59477;
+        padding: 10px 20px;
+        cursor: pointer;
+        display: block;
+        margin-bottom: 80px;
+    }
+
+    .i-pad {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+.header-bottom {
+    padding: 50px 0;
+    background: #f4f4f4;
+
+    .container {
+        padding: 0;
+    }
+
+    h4 {
+        margin: 0;
+        color: #898989;
+        font-size: 25px;
+        font-family: "Helvetica Neue Bold";
+        margin-bottom: 30px;
+    }
+
+    p {
+        margin-bottom: 35px;
+        color: #ada6a6;
+        font-size: 18px;
+        font-family: "Helvetica Neue Light";
+    }
+
+    .btn-container {
+        display: flex;
+    }
+
+    .btn {
+        font-size: 14px;
+        font-family: "Helvetica Neue Bold";
+        background: transparent;
+        color: #a59477;
+        border: 2px solid #a59477;
+        padding: 10px 20px;
+        cursor: pointer;
+        display: block;
+        margin-right: 10px;
+    }
+
+    .see-price-btn {
+        color: #956a72;
+        border-color: #956a72;
+    }
+}
+
+.content  {
+    padding: 0 10px;
+    .container {
+        padding: 0;
+    }
+
+    .part-one {
+        .intro{
+            h4 {
+                margin-top: 50px;
+                margin-bottom: 15px;
+                color: #898989;
+                font-size: 18px;
+                font-family: "Helvetica Neue Bold";
+            }
+
+            p {
+                margin-bottom: 35px;
+                color: #ada6a6;
+                font-size: 18px;
+                font-family: "Helvetica Neue Light";
+                margin-bottom: 45px
+            }
+        }
+
+        .row {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+        }
+
+        .process-item {
+            flex-basis: 20%;
+            text-align: center;
+
+            .flex-wrapper {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                margin-bottom: 30px;
+
+                .process-img {
+
+                    width: 100px;
+                    height: 100px;
+                    border: 2px solid #a59477;
+                    border-radius: 50%;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            h5{
+                color: #5e5c5c;
+                font-family: "Helvetica Neue Bold";
+                margin-bottom: 10px;
+
+                span {
+                    color: #a59477;
+                }
+            }
+
+            p {
+                color: #818181;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .part-two {
+        margin-bottom: 60px;
+
+        .intro{
+            h4 {
+                margin-top: 50px;
+                margin-bottom: 15px;
+                color: #898989;
+                font-size: 18px;
+                font-family: "Helvetica Neue Bold";
+            }
+
+            p {
+                margin-bottom: 35px;
+                color: #ada6a6;
+                font-size: 18px;
+                font-family: "Helvetica Neue Light";
+                margin-bottom: 45px
+            }
+        }
+
+        .user {
+            border: 1px solid #e4dcdc;
+            text-align: center;
+
+            h5 {
+                font-size: 15px;
+                font-weight: bold;
+                color: #8c8686;
+                margin-bottom: 0;
+                margin-top: 18px;
+            }
+
+            p {
+                font-size: 14px;
+                font-family: "Helvetica Neue Light";
+                color: #d4c7c7;
+                margin-bottom: 18px;
+            }
+
+            .img-block {
+                width: 100%;
+                padding: 100px 0;
+                background: #9f9f9f;
+            }
+        }
+    }
+
+    .part-three {
+
+        .row {
+            margin-bottom: 50px;
+        }
+
+        h3 {
+            font-size: 26px;
+            font-family: "Helvetica Neue Bold";
+            color: #898989;
+            margin-bottom: 25px;
+        }
+
+        .date {
+            width: 70px;
+            height: 70px;
+            border: 2px solid #a59477;
+            border-radius: 50%;
+            text-align: center;
+            padding-top: 13px;
+            padding-left: 4px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+
+            p {
+                line-height: 8px;
+                margin-right: 4px !important;
+                font-size: 12px;
+            }
+
+            h4, p {
+                margin: 0;
+                font-weight: bold;
+                color: #a59477;
+            }
+        }
+
+        .post {
+            h6 {
+                font-family: "Helvetica Neue Bold";
+                color: #8c8686;
+            }
+
+            p.title-info {
+                font-size: 12px;
+                color: #a59477;
+            }
+
+            p.text-content {
+                color: #8c8686;
+            }
+
+            a {
+                font-size: 12px;
+                color: #a59477;
+            }
+        }
+
+        .about-us {
+            color: #8c8686;
+
+            p {
+                line-height: 1.5em;
+                margin-bottom: 25px;
+            }
+
+            ul {
+                padding: 0 15px;
+
+                li {
+                    list-style: circle;
+                }
+            }
+        }
+
+    }
+}
+
+@import "mediaqueries.scss";

@@ -1,0 +1,130 @@
+@media (max-width: 450px) {
+
+    .content {
+        .intro {
+            text-align: center;
+        }
+
+        .row .process-item {
+            flex-basis: 100% !important;
+        }
+    }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+
+    .purchase-content {
+        padding: 6px;
+
+        .desc {
+            order: 2;
+            text-align: center;
+            padding: 0 5px;
+
+            h1 {
+                font-size: 32px !important;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        .i-pad {
+            justify-content: center;
+            order: 1;
+            padding: 0 5px;
+
+            img {
+                width: 220px;
+            }
+        }
+
+        .btn-container {
+            display: flex;
+            flex-flow: direction nowrap;
+            justify-content: center;
+        }
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+
+    .purchase-content {
+
+        .desc {
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+        .i-pad {
+            margin-top: 70px;
+            align-items: flex-start;
+        }
+    }
+
+    .header-bottom {
+        text-align: center;
+
+        .btn-container {
+            justify-content: center;
+        }
+    }
+
+    .content .row .process-item {
+        flex-basis: 50%;
+    }
+
+    .content .part-two .user {
+        margin-bottom: 20px;
+    }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+
+    .main-menu .navbar {
+        padding: 10px 6px;
+    }
+
+    .main-menu .social-icons ul {
+        border: none;
+        padding: 0;
+    }
+
+    .desc {
+        h1 {
+            font-size: 46px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .i-pad img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content .process-item {
+        flex-basis: 25%;
+        margin-bottom: 30px;
+    }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+
+}
