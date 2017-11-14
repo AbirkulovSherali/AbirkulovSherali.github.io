@@ -1,12 +1,23 @@
-@media (max-width: 450px) {
+@media (max-width: 462px) {
 
     .content {
-        .intro {
-            text-align: center;
-        }
+        .part-three {
+            h3 {
+                text-align: center;
+            }
 
-        .row .process-item {
-            flex-basis: 100% !important;
+            .flex-wrapper {
+                justify-content: center;
+            }
+
+            .date {
+                flex-basis: 100%;
+            }
+
+            .post {
+                flex-basis: 100%;
+                text-align: center;
+            }
         }
     }
 
@@ -120,6 +131,12 @@
     .content .process-item {
         flex-basis: 25%;
         margin-bottom: 30px;
+    }
+
+    .footer {
+        .items {
+            margin-bottom: 40px;
+        }
     }
 
 }
